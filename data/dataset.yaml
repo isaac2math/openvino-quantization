@@ -1,0 +1,10 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /home/ning/Data/Dropbox/Working_Directory/drone_openvino  # dataset root dir
+train: data/train.txt  # train images (relative to 'path') 196 images
+val: data/valid.txt  # val images (relative to 'path') 184 images
+test: # test images (optional)
+
+# Classes
+names:
+  0: glider
+  1: koala
